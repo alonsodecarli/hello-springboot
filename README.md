@@ -679,30 +679,3 @@ Corpo esperado, com formatação que pode variar:
 Com o suporte JSON incluído na configuração web e a negociação de conteúdo, o Spring usa um conversor para transformar o objeto em JSON.
 
 > 💡 O nome `/hello-json` foi escolhido apenas para comparar os formatos neste exercício. Não é obrigatório indicar o formato no caminho de uma API.
-
-## 4.6. Confira seu aprendizado
-
-- [ ] Sei diferenciar Spring Framework, Spring Boot e Spring Initializr.
-- [ ] Consigo gerar um projeto com Java 25 no Initializr.
-- [ ] Consigo abrir e executar a aplicação no IntelliJ.
-- [ ] Sei o que são anotações e como são utilizadas neste exemplo.
-- [ ] Entendo o papel de `@RestController`, `@GetMapping` e `@RequestParam`.
-- [ ] Consigo identificar método HTTP, caminho e parâmetro de consulta.
-- [ ] Consigo criar uma nova rota e testá-la no navegador.
-- [ ] Sei por que devo reiniciar a aplicação após alterar o código nesta aula.
-- [ ] Consigo diferenciar uma resposta 404 de uma falha de conexão.
-
----
-
-## 🔗 Referências para continuar estudando
-
-- [Spring Initializr](https://start.spring.io)
-- [Guia oficial: Building an Application with Spring Boot](https://spring.io/guides/gs/spring-boot/)
-- [Documentação de @SpringBootApplication](https://docs.spring.io/spring-boot/reference/using/using-the-springbootapplication-annotation.html)
-- [Spring MVC: mapeamento de requisições](https://docs.spring.io/spring-framework/reference/web/webmvc/mvc-controller/ann-requestmapping.html)
-- [Spring MVC: @RequestParam](https://docs.spring.io/spring-framework/reference/web/webmvc/mvc-controller/ann-methods/requestparam.html)
-- [Métodos HTTP — MDN](https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Reference/Methods)
-- [Requisitos e compatibilidade do Spring Boot](https://docs.spring.io/spring-boot/system-requirements.html)
-- [Repositório mencionado no material original](https://github.com/alonsodecarli-via/hello-springboot) — confira a versão e os pacotes antes de comparar com esta revisão.
-
-> 👩‍🏫 **Nota para o instrutor:** utilize o mesmo projeto e a mesma versão do Spring Boot para toda a turma. Valide o ambiente preparado antes da atividade. As instruções são completas sem imagens externas; se adicionar screenshots, capture-os na versão do IntelliJ usada na aula.
